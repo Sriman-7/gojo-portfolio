@@ -1,11 +1,3 @@
-let enter = document.getElementById("enter")
-let music = document.getElementById("music")
-
-enter.onclick = () => {
-enter.style.display="none"
-music.play()
-}
-
 const text = "Cyber Security • Gamer • YouTuber"
 let i = 0
 
