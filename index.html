@@ -8,15 +8,7 @@
 
 <body>
 
-<div id="enter">
-<h1>Click To Enter</h1>
-</div>
-
 <canvas id="particles"></canvas>
-
-<audio id="music" loop>
-<source src="music.mp3" type="audio/mpeg">
-</audio>
 
 <div class="card">
 
@@ -32,19 +24,27 @@
 <a href="#">Discord</a>
 </div>
 
+<div class="music-player">
+<p class="song">Now Playing: Golden Brown</p>
+
+<div class="equalizer">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<audio autoplay loop id="music">
+<source src="golden-brown.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
 </div>
 
 <script src="script.js"></script>
 
 </body>
 </html>
-#AUDIO
-<audio id="music" loop>
-<source src="golden-brown.mp3" type="audio/mpeg">
-</audio>
 
-<script>
-document.getElementById("enter").onclick = function(){
-document.getElementById("music").play();
-}
-</script>
